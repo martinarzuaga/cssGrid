@@ -10,10 +10,10 @@ body {
 }
 
 .grid-container{
-    width: 80vw;
+    /* width: 80vw; */
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 33.3%);
     grid-template-rows: repeat(3, 100px);
 }
 
@@ -23,6 +23,10 @@ body {
 
 .grid-item-1, .grid-item-3, .grid-item-5, .grid-item-7 {
     background-color: cornflowerblue;
+}
+
+.grid-item-1 {
+    grid-column: 1 / 3;
 }
 
 .grid-item-2, .grid-item-4, .grid-item-6, .grid-item-8 {

@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    
+}
+
+.container {
+    background-color: red;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: .5rem;
+}
+
+.item {
+    background-color: yellow;
+}
